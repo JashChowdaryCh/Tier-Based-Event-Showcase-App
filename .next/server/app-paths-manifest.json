@@ -1,0 +1,5 @@
+{
+  "/api/upgrade-tier/route": "app/api/upgrade-tier/route.js",
+  "/events/page": "app/events/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}

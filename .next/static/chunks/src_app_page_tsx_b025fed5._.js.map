@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/PSYPHER%20AI%20PROJECT%20APP/tier-events/src/app/page.tsx"],"sourcesContent":["'use client';\n\nimport {\n  SignInButton,\n  SignedIn,\n  SignedOut,\n  UserButton,\n} from '@clerk/nextjs';\n\nexport default function Home() {\n  return (\n    <main className=\"min-h-screen flex flex-col items-center justify-center p-6\">\n      <h1 className=\"text-3xl font-bold mb-6\">Tier-Based Event Showcase</h1>\n\n      <SignedOut>\n        <SignInButton />\n      </SignedOut>\n\n      <SignedIn>\n        <UserButton />\n        <p className=\"mt-4 text-lg\">You're signed in 🎉</p>\n      </SignedIn>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;AAAA;AAAA;AAFA;;;AASe,SAAS;IACtB,qBACE,6LAAC;QAAK,WAAU;;0BACd,6LAAC;gBAAG,WAAU;0BAA0B;;;;;;0BAExC,6LAAC,4KAAA,CAAA,YAAS;0BACR,cAAA,6LAAC,8KAAA,CAAA,eAAY;;;;;;;;;;0BAGf,6LAAC,4KAAA,CAAA,WAAQ;;kCACP,6LAAC,0KAAA,CAAA,aAAU;;;;;kCACX,6LAAC;wBAAE,WAAU;kCAAe;;;;;;;;;;;;;;;;;;AAIpC;KAfwB","debugId":null}}]
+}
