@@ -27,13 +27,13 @@ export default function EventsPage() {
   const upgradeTier = async (newTier: Event['tier']) => {
     if (!user) return;
     await fetch('/api/upgrade-tier', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({
-    userId: user.id,
-    newTier,
-  }),
-});
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        userId: user.id,
+        newTier,
+      }),
+    });
 
     setUserTier(newTier);
     window.location.reload();
@@ -72,7 +72,7 @@ export default function EventsPage() {
         {tierOrder.map((tier) => (
           <button
             key={tier}
-            onClick={() => upgradeTier(tier)}
+            onClick={() => upgradeTier(tier as Event['tier'])}
             className={`px-3 py-1 rounded text-white text-sm font-medium ${
               tier === 'free'
                 ? 'bg-green-500'
