@@ -6,6 +6,8 @@ A fully functional tier-based event platform built with **Next.js 15**, **Tailwi
 
 🔗 [View Deployed App](https://tier-based-event-showcase-app.vercel.app/)
 
+After signing in, go to 👉 [`/events`](https://tier-based-event-showcase-app.vercel.app/events) to view the tier-based events.
+
 ## 📂 Features
 
 - ✨ Auth with Clerk – Sign up & login flow
@@ -61,13 +63,13 @@ App will be live at http://localhost:3000
 
 ### 🧾 Tech Stack
 
-# Frontend: Next.js 15, Tailwind CSS
+ - Frontend: Next.js 15, Tailwind CSS
 
-# Auth: Clerk.dev
+ - Auth: Clerk.dev
 
-# Database: Supabase
+ - Database: Supabase
 
-# Deployment: Vercel
+- Deployment: Vercel
 
 ### 📦 Folder Structure (Simplified)
 ```bash
