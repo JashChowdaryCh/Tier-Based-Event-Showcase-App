@@ -19,7 +19,9 @@ export default function Home() {
 
       <SignedIn>
         <UserButton />
-        <p className="mt-4 text-lg">You're signed in 🎉</p>
+      
+          <p className="mt-4 text-lg">You&apos;re signed in 🎉</p>
+
         <Link
           href="/events"
           className="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
