@@ -6,7 +6,7 @@ A fully functional tier-based event platform built with **Next.js 15**, **Tailwi
 
 🔗 [View Deployed App](https://tier-based-event-showcase-app.vercel.app/)
 
-After signing in, go to 👉 [`/events`](https://tier-based-event-showcase-app.vercel.app/events) to view the tier-based events.
+After signing in, go to 👉 [`/events`](https://tier-based-event-showcase-app.vercel.app/events) to view and interact with the tier-based events list.
 
 ## 📂 Features
 
